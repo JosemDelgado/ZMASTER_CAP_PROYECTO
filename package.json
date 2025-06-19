@@ -2,7 +2,7 @@
   "name": "Orders",
   "version": "1.0.0",
   "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
+  "repository": "https://github.com/JosemDelgado/ZMASTER_CAP_PROYECTO.git",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
