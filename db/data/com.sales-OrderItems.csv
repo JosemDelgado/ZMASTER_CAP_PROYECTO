@@ -1,1 +1,26 @@
-ID,name,description,releaseDate,discontinuedDate,price,currency_code,height,width,depth,uomLength,quantity,uomQuantity,toOrderHead_ID
+ID,name,description,releasedate,discontinueddate,price,currency_code,height,width,depth,uomLength,quantity,uomQuantity,toOrderHead_ID
+i1b9d6bcd-bbfd-4b2d-9b5d-ab8cd9b2c3a1,Laptop,High performance laptop,2023-01-15,,1200.00,USD,2.5,35.0,25.0,CM,1.00,UN,1b9d6bcd-bbfd-4b2d-9b5d-ab8cd9b2c3a1
+i2b9d6bcd-bbfd-4b2d-9b5d-ab8cd9b2c3a1,Mouse,Wireless mouse,2023-02-01,,25.00,USD,1.0,6.0,10.0,CM,1.00,UN,1b9d6bcd-bbfd-4b2d-9b5d-ab8cd9b2c3a1
+i3b9d6bcd-bbfd-4b2d-9b5d-ab8cd9b2c3a1,Keyboard,Mechanical keyboard,2023-03-10,,75.00,USD,1.5,45.0,15.0,CM,1.00,UN,1b9d6bcd-bbfd-4b2d-9b5d-ab8cd9b2c3a1
+i4e0c7def-cc0e-5c3e-ac6e-bc9de0d3d4b2,Monitor,27-inch 4K monitor,2023-04-05,,350.00,CAD,40.0,60.0,5.0,CM,1.00,UN,2e0c7def-cc0e-5c3e-ac6e-bc9de0d3d4b2
+i5e0c7def-cc0e-5c3e-ac6e-bc9de0d3d4b2,Webcam,HD Webcam,2023-05-20,,50.00,CAD,3.0,5.0,4.0,CM,1.00,UN,2e0c7def-cc0e-5c3e-ac6e-bc9de0d3d4b2
+i6f1d8ef0-dd1f-6d4f-bd7f-cdad1e14e5c3,Headphones,Noise-cancelling headphones,2023-06-01,,150.00,GBP,20.0,15.0,10.0,CM,1.00,UN,3f1d8ef0-dd1f-6d4f-bd7f-cdad1e14e5c3
+i7f1d8ef0-dd1f-6d4f-bd7f-cdad1e14e5c3,Microphone,Studio microphone,2023-07-10,,100.00,GBP,18.0,6.0,6.0,CM,1.00,UN,3f1d8ef0-dd1f-6d4f-bd7f-cdad1e14e5c3
+i8a2e9f01-ee20-7e50-ce80-debe2f25f6d4,Smartphone,Latest model smartphone,2023-08-01,,900.00,AUD,0.8,7.0,15.0,CM,1.00,UN,4a2e9f01-ee20-7e50-ce80-debe2f25f6d4
+i9a2e9f01-ee20-7e50-ce80-debe2f25f6d4,Smartwatch,Fitness tracker smartwatch,2023-09-15,,200.00,AUD,1.0,4.0,4.0,CM,1.00,UN,4a2e9f01-ee20-7e50-ce80-debe2f25f6d4
+i10a2e9f01-ee20-7e50-ce80-debe2f25f6d4,Charger,Fast charger,2023-10-01,,20.00,AUD,2.0,3.0,3.0,CM,2.00,UN,4a2e9f01-ee20-7e50-ce80-debe2f25f6d4
+i11b3f0a12-ff31-8f61-df91-effc3g36g7e5,Tablet,Portable tablet,2023-11-01,,400.00,EUR,0.7,18.0,25.0,CM,1.00,UN,5b3f0a12-ff31-8f61-df91-effc3g36g7e5
+i12b3f0a12-ff31-8f61-df91-effc3g36g7e5,Stylus,Digital stylus pen,2023-12-10,,30.00,EUR,0.5,1.0,15.0,CM,1.00,UN,5b3f0a12-ff31-8f61-df91-effc3g36g7e5
+i13c401b23-0042-9a72-e0a2-000d4h47h8f6,E-Reader,E-ink reader,2024-01-01,,120.00,EUR,0.8,12.0,18.0,CM,1.00,UN,6c401b23-0042-9a72-e0a2-000d4h47h8f6
+i14c401b23-0042-9a72-e0a2-000d4h47h8f6,Case,Protective case,2024-02-15,,25.00,EUR,1.0,13.0,19.0,CM,1.00,UN,6c401b23-0042-9a72-e0a2-000d4h47h8f6
+i15d512c34-1153-ab83-f1b3-111e5i58i9g7,Speaker,Bluetooth speaker,2024-03-01,,80.00,USD,10.0,8.0,8.0,CM,1.00,UN,7d512c34-1153-ab83-f1b3-111e5i58i9g7
+i16d512c34-1153-ab83-f1b3-111e5i58i9g7,Power Bank,Portable power bank,2024-04-10,,40.00,USD,2.0,7.0,12.0,CM,1.00,UN,7d512c34-1153-ab83-f1b3-111e5i58i9g7
+i17d512c34-1153-ab83-f1b3-111e5i58i9g7,USB Drive,64GB USB drive,2024-05-01,,15.00,USD,0.5,2.0,5.0,CM,2.00,UN,7d512c34-1153-ab83-f1b3-111e5i58i9g7
+i18e623d45-2264-bc94-02c4-222f6j69j0h8,Router,Wi-Fi 6 Router,2024-06-01,,100.00,EUR,5.0,15.0,20.0,CM,1.00,UN,8e623d45-2264-bc94-02c4-222f6j69j0h8
+i19e623d45-2264-bc94-02c4-222f6j69j0h8,Mesh System,Mesh Wi-Fi system,2024-07-15,,200.00,EUR,8.0,10.0,10.0,CM,1.00,UN,8e623d45-2264-bc94-02c4-222f6j69j0h8
+i20f734e56-3375-cd05-13d5-333g7k70k1i9,Camera,Mirrorless camera,2024-08-01,,700.00,JPY,10.0,12.0,8.0,CM,1.00,UN,9f734e56-3375-cd05-13d5-333g7k70k1i9
+i21f734e56-3375-cd05-13d5-333g7k70k1i9,Lens,50mm prime lens,2024-09-01,,300.00,JPY,5.0,7.0,7.0,CM,1.00,UN,9f734e56-3375-cd05-13d5-333g7k70k1i9
+i22f734e56-3375-cd05-13d5-333g7k70k1i9,Tripod,Lightweight tripod,2024-10-10,,50.00,JPY,50.0,10.0,10.0,CM,1.00,UN,9f734e56-3375-cd05-13d5-333g7k70k1i9
+i23a0845f67-4486-de16-24e6-444h8l81l2j0,Drone,Beginner drone,2024-11-01,,250.00,CNY,10.0,20.0,20.0,CM,1.00,UN,a0845f67-4486-de16-24e6-444h8l81l2j0
+i24a0845f67-4486-de16-24e6-444h8l81l2j0,VR Headset,Virtual Reality Headset,2024-12-01,,400.00,CNY,15.0,20.0,10.0,CM,1.00,UN,a0845f67-4486-de16-24e6-444h8l81l2j0
+i25a0845f67-4486-de16-24e6-444h8l81l2j0,Gaming Console,Next-gen gaming console,2024-01-01,,500.00,CNY,5.0,30.0,25.0,CM,1.00,UN,a0845f67-4486-de16-24e6-444h8l81l2j0

@@ -14,7 +14,7 @@ using {
 /*
     Types
 */
-type decimalLenfth : Decimal(15, 3);
+type decimalLength : Decimal(15, 3);
 
 /*
     Entities
@@ -23,12 +23,12 @@ type decimalLenfth : Decimal(15, 3);
 // ORDER HEAD
 entity OrderHead : cuid, managed {
     email        : String(256);
-    firstname    : String(30);
-    lastname     : String(30);
+    firstName    : String(30);
+    lastName     : String(30);
     country      : Association to Countries;
-    createon     : Date;
-    deliverydate : Date;
-    orderstatus  : Association to OrderStatus; //orderstatus --- orderstatus_code
+    createOn     : Date;
+    deliveryDate : Date;
+    orderStatus  : Association to OrderStatus; //orderstatus --- orderstatus_code
     imageURL     : LargeBinary  @Core.MediaType: imageType  @UI.IsImage; //Image type in field imageType, field is an Image
     imageType    : String       @Core.IsMediaType;
     toOrderItems : Composition of many OrderItems // 1..n Composicion
@@ -38,14 +38,14 @@ entity OrderHead : cuid, managed {
 // ORDER ITEMS
 entity OrderItems : cuid {
     name             : String(40);
-    description      : String(40);
+    description      : String(140);
     releaseDate      : Date;
     discontinuedDate : Date;
     price            : Decimal(12, 2);
     currency         : Association to Currencies;
-    height           : decimalLenfth;
-    width            : decimalLenfth;
-    depth            : decimalLenfth;
+    height           : decimalLength;
+    width            : decimalLength;
+    depth            : decimalLength;
     uomLength        : String default 'CM';
     quantity         : Decimal(16, 2);
     uomQuantity      : String default 'UN';
