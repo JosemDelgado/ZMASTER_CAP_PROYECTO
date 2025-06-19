@@ -4,7 +4,7 @@
             "db": {
                 "kind": "sqlite",
                 "credentials": {
-                    "url": "salesorder.sqlite"
+                    "url": "orders.sqlite"
                 }
             },
             "auth":"dummy"
