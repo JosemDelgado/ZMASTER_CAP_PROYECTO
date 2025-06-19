@@ -71,14 +71,6 @@ annotate service.OrderHead with @(
             $Type: 'UI.DataField',
             Value: deliveryDate,
         }
-    // {
-    //     $Type                : 'UI.DataField',
-    //     Value                : imageURL, //The image
-    //     ![@HTML5.CssDefaults]: {
-    //         $Type: 'HTML5.CssDefaultsType',
-    //         width: '10rem'
-    //     }
-    // },
     ],
 
 
@@ -96,39 +88,33 @@ annotate service.OrderHead with @(
         },
         Description   : {
             $Type: 'UI.DataField',
-            Value: firstName
+            Value: createOn
         }
     },
 
 
-    /*
-        Header Facets
-    */
-    UI.HeaderFacets        : [{
-        $Type : 'UI.ReferenceFacet',
-        Target: '@UI.FieldGroup#Image',
-        ID    : 'Image'
-    },
-    // {
+    // /*
+    //     Header Facets
+    // */
+    // UI.HeaderFacets        : [{
     //     $Type : 'UI.ReferenceFacet',
-    //     Target: '@UI.FieldGroup#Status',
-    //     ID    : 'ProductStatu',
-    //     Label : '{i18n>orderstatus}'
+    //     Target: '@UI.FieldGroup#Image',
+    //     ID    : 'Image'
     // }
-    ],
+    // ],
 
-    /*
-        FieldGroups
-    */
-    // IMAGE
-    UI.FieldGroup #Image   : { 
-        $Type: 'UI.FieldGroupType',
-        Data : [{
-            $Type: 'UI.DataField',
-            Value: imageURL,
-            Label: ''
-        }]
-    },
+    // /*
+    //     FieldGroups
+    // */
+    // // IMAGE
+    // UI.FieldGroup #Image   : { 
+    //     $Type: 'UI.FieldGroupType',
+    //     Data : [{
+    //         $Type: 'UI.DataField',
+    //         Value: imageURL,
+    //         Label: ''
+    //     }]
+    // },
 
     /*
         Facets

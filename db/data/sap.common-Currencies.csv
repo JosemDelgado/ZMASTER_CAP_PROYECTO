@@ -1,1 +1,11 @@
 code,symbol,minorUnit,name,descr
+USD,$,2
+EUR,€,2
+GBP,£,2
+JPY,¥,0
+AUD,A$,2
+CAD,C$,2
+CHF,CHF,2
+CNY,¥,2
+SEK,kr,2
+NZD,NZ$,2

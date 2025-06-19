@@ -22,14 +22,14 @@ type decimalLength : Decimal(15, 3);
 
 // ORDER HEAD
 entity OrderHead : cuid, managed {
-    email        : String(256);
+    email        : String(256) @mandatory;
     firstName    : String(30);
     lastName     : String(30);
     country      : Association to Countries;
     createOn     : Date;
     deliveryDate : Date;
     orderStatus  : Association to OrderStatus; //orderstatus --- orderstatus_code
-    imageURL     : LargeBinary  @Core.MediaType: imageType  @UI.IsImage; //Image type in field imageType, field is an Image
+    imageURL     : LargeBinary  @Core.MediaType: imageType  @UI.IsImage;
     imageType    : String       @Core.IsMediaType;
     toOrderItems : Composition of many OrderItems // 1..n Composicion
                        on toOrderItems.toOrderHead = $self; 
