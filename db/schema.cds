@@ -29,8 +29,9 @@ entity OrderHead : cuid, managed {
     createOn     : Date;
     deliveryDate : Date;
     orderStatus  : Association to OrderStatus; //orderstatus --- orderstatus_code
-    imageURL     : LargeBinary  @Core.MediaType: imageType  @UI.IsImage;
-    imageType    : String       @Core.IsMediaType;
+    imageURL     : String(256);
+    // image        : LargeBinary  @Core.MediaType: imageType  @UI.IsImage;  // Si se quieren subir imágenes
+    // imageType    : String       @Core.IsMediaType;
     toOrderItems : Composition of many OrderItems // 1..n Composicion
                        on toOrderItems.toOrderHead = $self; 
 }
@@ -62,5 +63,5 @@ entity OrderStatus : CodeList {
             Open = 'Order Open';
             Closed = 'Order Closed';
         };
-        criticality : Integer; //Store Criticality of code
+        criticality : Integer; //Store Criticality of OrderStatus
 };

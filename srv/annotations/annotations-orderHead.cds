@@ -193,10 +193,15 @@ annotate service.OrderHead with @(
             Label: ''
         },
         {
-            $Type: 'UI.DataField',
-            Value: orderStatus_code,
-            Label: ''
-        }        
+            $Type                : 'UI.DataField',
+            Value                : orderStatus_code,
+            Criticality          : orderStatus.criticality, //Origin of Criticality
+            ![@HTML5.CssDefaults]: {
+                $Type: 'HTML5.CssDefaultsType',
+                width: '10rem',
+            }
+        },
+
         ]
     },
 
@@ -215,58 +220,5 @@ annotate service.OrderHead with @(
         }        
         ]
     },
-
-// // Fieldgroup for Header Facets
-// UI.FieldGroup #HeaderA: {
-//     $Type: 'UI.FieldGroupType',
-//     Data : [
-//         {
-//             $Type: 'UI.DataField',
-//             Value: firstName
-//         },
-//         {
-//             $Type: 'UI.DataField',
-//             Value: lastName,
-//         },
-//         {
-//             $Type: 'UI.DataField',
-//             Value: email
-//         },
-//         {
-//             $Type      : 'UI.DataField',
-//             Value      : orderStatus_code,
-//             Criticality: orderStatus.criticality,
-//             Label      : '{i18n>status}'
-//         }
-//     ]
-// },
-
-// UI.FieldGroup #Details: {
-//     $Type: 'UI.FieldGroupType',
-//     Data : [
-//         {
-//             $Type: 'UI.DataField',
-//             Value: country_code
-//         },
-//         {
-//             $Type: 'UI.DataField',
-//             Value: createOn,
-//         },
-//         {
-//             $Type: 'UI.DataField',
-//             Value: deliveryDate
-//         }
-//     ]
-// },
-
-// UI.FieldGroup #Status : {
-//     $Type: 'UI.FieldGroupType',
-//     Data : [{
-//         $Type      : 'UI.DataField',
-//         Value      : orderStatus_code,
-//         Criticality: orderStatus.criticality,
-//         Label      : ''
-//     }]
-// },
 
 );

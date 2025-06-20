@@ -70,12 +70,6 @@ annotate service.OrderItems with @(
             Label : '{i18n>itemdetails}',
             ID    : 'ItemDetail'
         },
-        // {
-        //     $Type : 'UI.ReferenceFacet',
-        //     Target: '@UI.FieldGroup#ItemMeasure',
-        //     Label : '{i18n>measures}',
-        //     ID    : 'measures'
-        // }
         {
             $Type : 'UI.CollectionFacet',
             Facets: [
