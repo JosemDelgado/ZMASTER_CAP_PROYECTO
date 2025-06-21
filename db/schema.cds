@@ -26,7 +26,7 @@ entity OrderHead : cuid, managed {
     firstName    : String(30);
     lastName     : String(30);
     country      : Association to Countries;
-    createOn     : Date;
+    createOn     : Date @readonly;
     deliveryDate : Date;
     orderStatus  : Association to OrderStatus; //orderstatus --- orderstatus_code
     imageURL     : String(256);

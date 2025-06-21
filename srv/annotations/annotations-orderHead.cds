@@ -79,8 +79,8 @@ annotate service.OrderHead with @(
     */
     UI.HeaderInfo          : { //Header Info
         $Type         : 'UI.HeaderInfoType',
-        TypeName      : '{i18n>salesorder}',
-        TypeNamePlural: '{i18n>salesorders}',
+        TypeName      : '{i18n>order}',
+        TypeNamePlural: '{i18n>orders}',
         ImageUrl      : 'imageURL',
         Title         : {
             $Type: 'UI.DataField',
@@ -173,7 +173,7 @@ annotate service.OrderHead with @(
             {
                 $Type: 'UI.DataField',
                 Value: country_code,
-                Label : '{i18n>countrycode}'
+                Label : '{i18n>country}'
 
             },
             {
@@ -190,7 +190,7 @@ annotate service.OrderHead with @(
         Data : [{
             $Type: 'UI.DataField',
             Value: imageURL,
-            Label: ''
+            Label: '{i18n>image}'
         },
         {
             $Type                : 'UI.DataField',

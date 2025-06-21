@@ -22,23 +22,28 @@ annotate service.OrderItems with @(
     UI.LineItem               : [
         {
             $Type: 'UI.DataField',
-            Value: name
+            Value: name,
+            Label: '{i18n>nameProd}'
         },
         {
             $Type: 'UI.DataField',
-            Value: description
+            Value: description,
+            Label: '{i18n>descProd}'
         },
         {
             $Type: 'UI.DataField',
-            Value: releaseDate
+            Value: releaseDate,
+            Label: '{i18n>releaseDate}'
         },
         {
             $Type: 'UI.DataField',
-            Value: price
+            Value: price,
+            Label: '{i18n>price}'
         },
         {
             $Type: 'UI.DataField',
-            Value: quantity
+            Value: quantity,
+            Label: '{i18n>quantity}'
         }
     ],
 
@@ -76,18 +81,18 @@ annotate service.OrderItems with @(
                 {
                     $Type : 'UI.ReferenceFacet',
                     Target: '@UI.FieldGroup#itemDates',
-                    ID    : 'ImageStatus',
+                    ID    : 'ItemDates',
                     Label : '{i18n>itemDates}'
                 },
                 {
                     $Type : 'UI.ReferenceFacet',
                     Target: '@UI.FieldGroup#itemMeasures',
-                    ID    : 'Dates',
+                    ID    : 'ItemMeasures',
                     Label : '{i18n>itemMeasures}'
                 }
             ],
-            Label : '{i18n>details}',
-            ID    : 'Details'
+            Label : '{i18n>measuresDates}',
+            ID    : 'MeasuresDates'
         },
 
     ],
